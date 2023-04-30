@@ -15,5 +15,6 @@ def eat_lunch(lunch):
             
 hello()
 print(pack(5, 31, 87))
+eat_lunch([])
 eat_lunch(["musubi", "loco moco"])
 

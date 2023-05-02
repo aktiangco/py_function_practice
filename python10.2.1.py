@@ -42,14 +42,16 @@ food_foods("apples", "banana","strawberry")
 
 
 # arb_mean - Accepts any number of integers and prints their average.
-def arb_mean(*args):
-    total = 30
-    for a in args:
-        #a = 1
-        total =+ a
-    print(30/6)
+#*  def arb_mean(*args):
+#*     total = 30
+#*     for a in args:
+#*         #a = 1
+#*         total =+ a
+#*     print(30/6)
 
-arb_mean(20, 25, 26, 28)
+#* arb_mean(20, 25, 26, 28)
+
+# TODO work on this
 
 # arb_longest_string - Accepts any number of strings and returns the longest one.
 def arb_longest_string(*args):
@@ -59,5 +61,5 @@ def arb_longest_string(*args):
             longest = arg
     return longest
 
-result = arb_longest_string("apple", "banana", "cherry", "date")
+result = arb_longest_string("watermellon", "banana", "apple")
 print(result)

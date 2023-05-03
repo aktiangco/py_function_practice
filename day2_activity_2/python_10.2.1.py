@@ -1,3 +1,6 @@
+# Activity: Python Function Fun Part 2
+# *! To check: python3 day2_activity_2/python_10.2.1.py
+
 # arb_args - Takes in any number of arguments and prints them one at a time.
 def arb_args(*args):
     for any in args:
@@ -42,16 +45,15 @@ food_foods("apples", "banana","strawberry")
 
 
 # arb_mean - Accepts any number of integers and prints their average.
-#*  def arb_mean(*args):
-#*     total = 30
-#*     for a in args:
-#*         #a = 1
-#*         total =+ a
-#*     print(30/6)
+def arb_mean(*args):
+    total = 0
+    for a in args:
+        #a = 1
+        total =+ a
+    print(1/len(args))
 
-#* arb_mean(20, 25, 26, 28)
+arb_mean(20, 25, 26, 28)
 
-# TODO work on this
 
 # arb_longest_string - Accepts any number of strings and returns the longest one.
 def arb_longest_string(*args):

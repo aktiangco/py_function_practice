@@ -1,3 +1,6 @@
+
+# *! To check: python3 day2_activity_1/python_10.1.1.py
+
 #Section 1 - sets and tuples:
 #Pre-Question: Take a look at this JavaScript Array:
 # let javaScriptArray = [12, 55, 33, 40, 55, 33, 20, 12]

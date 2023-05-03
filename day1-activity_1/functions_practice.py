@@ -1,3 +1,6 @@
+
+# *! To check: python3 day2_activity_1/python_practice.py
+
 def hello():
     print("Hello Master!")
 

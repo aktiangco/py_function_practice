@@ -2,9 +2,9 @@
 # *! To check: python3 day3/zoo.py
 
 class Person:
-  def __init__(self,in_name,in_age):
-    self.name = in_name
-    self.age = in_age
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
       
   def get_name(self):
     return self.name
@@ -13,8 +13,8 @@ class Person:
 Next, let's try defining a class to represent a customer. A customer is a person, so the Customer class inherits from the Person class, and should call the Person constructor inside the Customer constructor. In addition to their name and age, a customer should have two Booleans, one each for whether they have a ticket for the zoo, and whether they are currently in the zoo. Initialize these Booleans to false in the constructor for your Customer class.
 '''
 class Customer(Person):
-    def __init__(self, in_name, age):
-        super().__init__(in_name, age)
+    def __init__(self, name, age):
+        super().__init__(name, age)
         self.has_ticket = False
         self.in_zoo = False
         
@@ -36,7 +36,7 @@ class Customer(Person):
     def enter_zoo(self, zoo):
         if self.has_ticket:
             self.has_ticket = False
-            zoo.add_customer(self)
+            zoo.add_customer(self.name)
             self.in_zoo = True
             print(f"{self.name} has entered the zoo.")
         else:
@@ -48,13 +48,8 @@ class Customer(Person):
     def exit_zoo(self, zoo):
         if self.in_zoo:
             self.in_zoo = False
-            zoo.remove_customer(self)
-            print(f"{self.name} has exited the zoo.")
-        else:
-            print(f"{self.name} is not currently in the zoo.")
-
-  
-
+            zoo.remove_customer(self.name)
+        
 class Zoo:
   def __init__(self,name="Local Zoo"):
     self.name = name
@@ -102,30 +97,30 @@ class Fish(Animal):
         super().__init__(name)
 
     def make_noise(self):
-        print(f"{self.name}Glub glub")
+        print(f"{self.name} Glub glub")
 
     def eat_food(self):
-        print(f"{self.name}Eating fish flakes")
+        print(f"{self.name} Eating fish flakes")
 
 class Bird(Animal):
     def __init__(self, name):
         super().__init__(name)
 
     def make_noise(self):
-        print(f"{self.name}Tweet tweet")
+        print(f"{self.name} Tweet tweet")
 
     def eat_food(self):
-        print(f"{self.name}Eating birdseed")
+        print(f"{self.name} Eating birdseed")
 
 class Chimp(Animal):
     def __init__(self, name):
         super().__init__(name)
 
     def make_noise(self):
-        print(f"{self.name}Ooh ooh aah aah")
+        print(f"{self.name} Ooh ooh aah aah")
 
     def eat_food(self):
-        print(f"{self.name}Eating bananas")
+        print(f"{self.name} Eating bananas")
 
 
 

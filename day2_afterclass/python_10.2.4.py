@@ -1,4 +1,4 @@
-
+# Activity: Python Function Practice Part 4
 # *! To check: python3 day2_afterclass/python_10.2.4.py
 
 #* Write a Python function called max_num()to find the maximum of three numbers.
@@ -60,7 +60,7 @@ print(num_within(10,2,5))
 
 # print(pascal(1))
 
-# * from solution code
+# * from solution
 triangle = [[1],[1,1]]
 def pascal(n):
   #base case

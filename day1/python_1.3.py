@@ -1,5 +1,5 @@
-
-# *! To check: python3 day2_activity_1/python_10.1.3.py
+# Activity: Fun with Python Functions
+# *! To check: python3 day1/python_1.3.py
 
 # Function Definition Practice:
 # Define functions according to the following prompts. Run the Replit to verify correct output.

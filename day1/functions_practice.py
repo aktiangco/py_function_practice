@@ -1,5 +1,5 @@
 
-# *! To check: python3 day2_activity_1/python_practice.py
+# *! To check: python3 day1/python_practice.py
 
 def hello():
     print("Hello Master!")

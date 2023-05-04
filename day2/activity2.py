@@ -1,5 +1,5 @@
 # Activity: Python Function Fun Part 2
-# *! To check: python3 day2_activity_2/python_10.2.1.py
+# *! To check: python3 day2/activity2.py
 
 # arb_args - Takes in any number of arguments and prints them one at a time.
 def arb_args(*args):

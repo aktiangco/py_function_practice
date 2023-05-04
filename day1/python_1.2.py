@@ -1,5 +1,5 @@
-
-# *! To check: python3 day2_activity_1/python_10.1.1.py
+# Activity: Practice With Basics
+# *! To check: python3 day1/python_1.1.py
 
 #Section 1 - sets and tuples:
 #Pre-Question: Take a look at this JavaScript Array:

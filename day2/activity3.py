@@ -1,5 +1,5 @@
 # Activity: Python Function Fun Part 3
-# *! To check: python3 day2_activity_3/python_10.2.3.py
+# *! To check: python3 day2/activity3.py
 
 #* name_args - Accepts any number of named arguments and prints them in the pattern key : value one at a time.
 # TODO

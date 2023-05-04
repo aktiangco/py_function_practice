@@ -1,5 +1,5 @@
-
-# *! To check: python3 day2_activity_1/python_10.1.1.py
+# Activity: Practice: Data Types
+# *! To check: python3 day1/python_1.1.py
 
 ## Section 1 - variables and functions: 
 # Question 1: Create two variables. One should be a string data type, and the other should be of type int.

@@ -39,7 +39,7 @@ res3 = flatten_and_sort(test3)
 print(res3) # Output: ['a', 'b', 'c', 'f', 'g', 'n', 's', 't', 'z']
 
 '''
-# TODO 
+#* Imperative Prompt
 Once a functional solution to this problem has been implemented, answer the following questions.
  #? - How does this solution ensure data immutability?
     #* It creates a list without modifying the original input list, ensures input list remains unchanged.

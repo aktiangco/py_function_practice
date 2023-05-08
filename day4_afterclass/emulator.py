@@ -75,7 +75,7 @@ v2 = Currency(19.97, "USD")
 print(v1 + v2) # Result will be in EUR
 print(v2 + v1) # Result will be in USD
 print(v1 + 3) # an int or a float is considered to be a USD value
-print(3 + v1) # Result will be in EUR
+print(3 + v1) # Result will be in USD
 print(v1 - 3) # an int or a float is considered to be a USD value
 print(30 - v2) # Result will be in USD 
 

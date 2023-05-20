@@ -20,6 +20,7 @@ class Currency:
         """
         self.value = (self.value / Currency.currencies[self.unit] * Currency.currencies[new_unit])
         self.unit = new_unit
+        
 
     #add magic methods here
     def __repr__(self):
